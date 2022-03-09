@@ -5,7 +5,7 @@
 * Lucas(Design): Make the webpage look nice. Make sure runtime is easily accessible and that everything is in the same theme. Work with CSS. Help with create tasks and help do coding.
 
 ## Table of Contents
-1. [Me]https://github.com/lucasho22/flask_portfolio/blob/main/README.md#me)
+1. [Me](https://github.com/lucasho22/flask_portfolio/blob/main/README.md#me)
 2. [Week 0](https://github.com/lucasho22/flask_portfolio/blob/main/README.md#week-0)
 
 
