@@ -12,7 +12,7 @@
 ## Me
 | Name | GitHub ID and Profile | Tasks | Scrum Board | Commits | Role | 
 |:-----|:----------------------|:-----:|:-----------:|:-------:|:-------:|
-| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/jacksongolding/Nut-Team/issues/assigned/lucasho22) |[Scrum Board](https://github.com/jacksongolding/Nut-Team/projects/1) |[Commits](https://github.com/jacksongolding/Nut-Team/commits?author=lucasho22) | Designer
+| Lucas Ho | [@lucasho22](https://github.com/lucasho22) | [Tasks](https://github.com/jacksongolding/Nut-Team/issues/assigned/lucasho22) |[Scrum Board](https://github.com/lucasho22/flask_portfolio/projects/1?add_cards_query=is%3Aopen) |[Commits](https://github.com/jacksongolding/Nut-Team/commits?author=lucasho22) | Designer
 
 ## Week 0
 | Name | Tasks | Commits |
