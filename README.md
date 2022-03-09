@@ -7,7 +7,7 @@
 ## Table of Contents
 1. [Our Team](https://github.com/jacksongolding/Nut-Team/blob/main/README.md#our-team)
 2. [Pair-Share Journals](https://github.com/jacksongolding/Nut-Team/blob/main/README.md#pair-share-journal-teams)
-3. [Week 0](https://github.com/lucasho22flask_portfolio/#week-0)
+3. [Week 0](https://github.com/lucasho22flask_portfolio#week-0)
 
 
 ## Me
