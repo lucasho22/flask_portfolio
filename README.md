@@ -1,4 +1,4 @@
-sfasdfasdfasdf
+{%  include navigation.html %}
 
 # Lucas Ho's ReadMe
 ## Create Task Idea
