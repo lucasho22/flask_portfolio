@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## 5.1-5.6 Notes
 
 ### 5.1: Beneficial and Harmful Effects
