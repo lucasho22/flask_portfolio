@@ -9,6 +9,7 @@
 ![image](https://user-images.githubusercontent.com/77864093/158083263-f7e819c1-070b-4b58-a8a6-d13aa0b98615.png)
 
 ### Github Links
+[GitHub Commits](https://github.com/lucasho22/flask_portfolio/issues/2)
 
 ### Replit Links
 [Replit](https://replit.com/@lucasho22/flaskportfolio-2#swap.py)
