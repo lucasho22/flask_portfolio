@@ -1,6 +1,8 @@
 import woot
 import skater
 import swap
+import tree
+import keypad
 
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -15,6 +17,8 @@ main_menu = [
     ["Woot", woot.boathouse],
     ["Skater", skater.skating],
     ["Swap", swap.test_swap],
+    ["Tree", tree.treefunc],
+    ["Keypad", keypad.format_tester],
 ]
 
 # Submenu list of [Prompt, Action]
