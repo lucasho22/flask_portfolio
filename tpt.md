@@ -37,5 +37,10 @@ Computers are not common in rural areas
 The internet is used to protect and advocate the government
 High level of surveillance on the internet to protect the government
 
+### 5.1 Actions
+1. 
+* Communication is easier. ALl you need to do is type something and send it, instead of having to travel somewhere to send a message. However, it is harmful because peole become very reliaible on computers and technology, and are less likely to talk in real life.
+* Beneficial effect of computing is Google translate. This allows people to interact with other languages and translate from one language to another. This can help in travelling. However, harmful effects is that the translation is not always accurate and it can say something that you didn't mean to say.
+* Innovations can be made online, such as oline ordering, which can save gas. However, this can be harmful because it can cause people to become lazy.
 
-## 5.1-5.6 Actions
+2. Dopamine is a real thing. This can be seen in addiction. People can become addicted to things, like social media. People can feel good about social media, which can cause them to keep using them since it makes them feel good. Doapmine can also be good, since it can cause you to be motivated to do things. For example, I have felt doapmine when I fix a problem in coding. This causes me to want to learn more and be enegaged in it.
