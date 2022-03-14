@@ -19,4 +19,7 @@
 ## Week 0
 | Name | Tasks | Commits |
 |:-----|:----------------------|:-----:|
-| Lucas Ho | [Tasks]() | |
+| Lucas Ho | [Tasks](https://github.com/lucasho22/flask_portfolio/issues/1) | [Commits](https://github.com/lucasho22/flask_portfolio/issues/2)
+
+## Week 0 Review Ticket
+[Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/4)
