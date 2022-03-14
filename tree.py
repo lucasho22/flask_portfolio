@@ -1,10 +1,10 @@
 def build_tree(height):
-  i = 1
-  while i <= height:
-    print(" " * (height - i) + "ඞඞඞඞ " - i)
-    i = i + 1
-  print(" " * (height - 2) + "ඞඞඞ")
-  print(" " * (height - 2) + "ඞඞඞ")
+  i = height
+  p = 1
+  while i >= 1:
+    print(" " * (p) + "ඞ " * i)
+    i = i - 1
+    p = p + 1
 
 def treefunc():
   height = int(input("Enter height: "))
