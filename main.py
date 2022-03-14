@@ -14,26 +14,14 @@ import keypad
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Woot", woot.boathouse],
-    ["Skater", skater.skating],
     ["Swap", swap.test_swap],
     ["Tree", tree.treefunc],
     ["Keypad", keypad.format_tester],
 ]
 
-# Submenu list of [Prompt, Action]
-# Works similarly to main_menu
-sub_menu = [
-    ["Factors", None],
-    ["GCD", None],
-    ["LCM", None],
-    ["Primes", None],
-]
-
 patterns_sub_menu = [
-    ["Patterns", None],
-    ["PreFuncy", None],
-    ["Funcy", None],
+    ["Woot", woot.boathouse],
+    ["Skater", skater.skating],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -48,7 +36,6 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", submenu])
     menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
 
