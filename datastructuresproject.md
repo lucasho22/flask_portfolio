@@ -30,6 +30,34 @@
 
 ### Fibonacci with try/except
 ![image](https://user-images.githubusercontent.com/77864093/159205789-076389f5-8635-4c3a-9328-315d53b41750.png)
+```python
+def fibonacci(n):
+  if n == 0:
+    return 0
+    # return 0 for n == 0
+  elif n == 1 or n == 2:
+    return 1
+    # return 1 for n == 1 or n == 2
+  else:
+    return fibonacci(n-1) + fibonacci(n-2)
+    # Goes through fibonacci. Loop. Adds. This is the original code for fibonacci.
+
+def fibonacci_results():
+  try:
+    num = int(input("Enter a number for fibonacci: "))
+    if num < 0:
+      raise ValueError
+      # If the number is negative, the code won't work, so we need to show the user there is an error.
+      
+    for n in range(num + 1):
+      if n == num:
+        print(fibonacci(n))
+        # Prints fibonacci sequence for whatever n is
+      else:
+        print(fibonacci(n), end=", ")
+  except ValueError:
+    print("ERROR: Invalid input for Fibonacci sequence.")
+```
 
 #### Github Links
 [GitHub Commits and Links](https://github.com/lucasho22/flask_portfolio/issues/5)
