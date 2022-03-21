@@ -2,6 +2,8 @@
 
 # Data Structures
 
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@lucasho22/flaskportfolio-2?embed=true"> </iframe>
+
 ## Week 0
 
 ### Menu Challenge Code
@@ -26,10 +28,64 @@
 ## Week 1
 
 ### Lists with loops
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@lucasho22/flaskportfolio-2?embed=true"> </iframe>
+```python
+InfoDb = []
+InfoDb.append({  
+  "FirstName": "Lucas",  
+  "LastName": "Ho",    
+  "Favorite_Movies":["Star Wars","Dumb and Dumber","Spider Man","Avengers"]  
+})  
+
+InfoDb.append({  
+  "FirstName": "Joe",  
+  "LastName": "Rob",    
+  "Favorite_Movies":["Cars","Super Idol","Wonder Pets"]  
+})
+
+InfoDb.append({  
+  "FirstName": "Bob",  
+  "LastName": "Bob",    
+  "Favorite_Movies":["Bob bb","moooo","movE"]  
+})
+
+InfoDb.append({  
+  "FirstName": "Steve",  
+  "LastName": "Jobs",    
+  "Favorite_Movies":["Wreck It Ralph","Bugs Life","Up"]  
+})
+
+def print_data(n):
+    print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])
+    print("\t", "Favorite Movies: ", end="")
+    print(", ".join(InfoDb[n]["Favorite_Movies"])) 
+    print() 
+
+def for_loop():
+  for n in range(len(InfoDb)):
+    print_data(n)
+
+def while_loop(n):
+    while n < len(InfoDb):
+        print_data(n)
+        n += 1
+    return
+
+def recursive_loop(n):
+  if n < len(InfoDb):
+      print_data(n)
+      recursive_loop(n + 1)
+  return
+
+def tester():
+  print("For loop")
+  for_loop()
+  print("While loop")
+  while_loop(0)  
+  print("Recursive loop")
+  recursive_loop(0)  
+```
 
 ### Fibonacci with try/except
-![image](https://user-images.githubusercontent.com/77864093/159205789-076389f5-8635-4c3a-9328-315d53b41750.png)
 ```python
 def fibonacci(n):
   if n == 0:
