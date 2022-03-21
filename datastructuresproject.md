@@ -35,30 +35,35 @@ InfoDb.append({
   "LastName": "Ho",    
   "Favorite_Movies":["Star Wars","Dumb and Dumber","Spider Man","Avengers"]  
 })  
+# adds to the end of InfoDb
 
 InfoDb.append({  
   "FirstName": "Joe",  
   "LastName": "Rob",    
-  "Favorite_Movies":["Cars","Super Idol","Wonder Pets"]  
+  "Favorite_Movies":["Cars","Super Idol","Wonder Pets"] 
 })
+# adds to the end of InfoDb
 
 InfoDb.append({  
   "FirstName": "Bob",  
   "LastName": "Bob",    
   "Favorite_Movies":["Bob bb","moooo","movE"]  
 })
+# adds to the end of InfoDb
 
 InfoDb.append({  
   "FirstName": "Steve",  
   "LastName": "Jobs",    
-  "Favorite_Movies":["Wreck It Ralph","Bugs Life","Up"]  
+  "Favorite_Movies":["Wreck It Ralph","Bugs Life","Up"] 
 })
+# adds to the end of InfoDb
 
 def print_data(n):
     print(InfoDb[n]["FirstName"], InfoDb[n]["LastName"])
     print("\t", "Favorite Movies: ", end="")
     print(", ".join(InfoDb[n]["Favorite_Movies"])) 
     print() 
+# prints the list. This is how it will appear for each loop. Shows first name, last name, and favorite movies.
 
 def for_loop():
   for n in range(len(InfoDb)):
@@ -83,6 +88,7 @@ def tester():
   while_loop(0)  
   print("Recursive loop")
   recursive_loop(0)  
+# Code for replit that actually prints list 
 ```
 
 ### Fibonacci with try/except
