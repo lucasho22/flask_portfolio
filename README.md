@@ -24,3 +24,6 @@ My create task idea is to make a search that requires an input. Based on your in
 
 ## Week 0 Review Ticket
 [Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/4)
+
+## Week 1 Review Ticket
+[Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/6)
