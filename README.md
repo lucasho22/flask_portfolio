@@ -2,6 +2,7 @@
 
 # Lucas Ho's ReadMe
 ## Create Task Idea
+My create task idea is to make a search that requires an input. Based on your input, a certain output will display, such as school information, what classes you are taking, what classes you need to take, what classes you might be interested in, and other useful information. This will help students for Del Norte graduate and it can be easily accessible to find information about your school information.
 
 ## My job
 * Lucas(Design): Make the webpage look nice. Make sure runtime is easily accessible and that everything is in the same theme. Work with CSS. Help with create tasks and help do coding.
@@ -19,4 +20,7 @@
 ## Week 0
 | Name | Tasks | Commits |
 |:-----|:----------------------|:-----:|
-| Lucas Ho | [Tasks]() | |
+| Lucas Ho | [Tasks](https://github.com/lucasho22/flask_portfolio/issues/1) | [Commits](https://github.com/lucasho22/flask_portfolio/issues/2)
+
+## Week 0 Review Ticket
+[Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/4)
