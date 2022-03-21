@@ -26,7 +26,7 @@
 ## Week 1
 
 ### Lists with loops
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@lucasho22/flaskportfolio-2#listprin.py>
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@lucasho22/flaskportfolio-2#listprin.py"></iframe>
 
 ### Fibonacci with try/except
 ![image](https://user-images.githubusercontent.com/77864093/159205789-076389f5-8635-4c3a-9328-315d53b41750.png)
