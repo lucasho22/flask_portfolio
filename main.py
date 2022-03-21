@@ -3,6 +3,8 @@ import skater
 import swap
 import tree
 import keypad
+import listprin
+import fibonacci
 
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -13,15 +15,19 @@ import keypad
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
-main_menu = [
+main_menu = []
+
+patterns_sub_menu1 = [
     ["Swap", swap.test_swap],
     ["Tree", tree.treefunc],
     ["Keypad", keypad.format_tester],
-]
-
-patterns_sub_menu = [
     ["Woot", woot.boathouse],
     ["Skater", skater.skating],
+]
+
+patterns_sub_menu2 = [
+    ["List", listprin.tester],
+    ["Fiboancci", fibonacci.fibonacci_results],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -36,7 +42,8 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Week 0", patterns_submenu1])
+    menu_list.append(["Week 1", patterns_submenu2])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -45,9 +52,12 @@ def menu():
 def submenu():
     title = "Function Submenu" + banner
     buildMenu(title, sub_menu)
-def patterns_submenu():
+def patterns_submenu1():
     title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
+    buildMenu(title, patterns_sub_menu1)
+def patterns_submenu2():
+    title = "Function Submenu" + banner
+    buildMenu(title, patterns_sub_menu2)
 
 def buildMenu(banner, options):
     # header for menu
@@ -86,12 +96,12 @@ def buildMenu(banner, options):
                 print(f"File not found!: {action}")
             # end function try
         # end prompts try
-    except ValueError:
-        # not a number error
-        print(f"Not a number: {choice}")
     except UnboundLocalError:
         # traps all other errors
         print(f"Invalid choice: {choice}")
+    except ValueError:
+          print(f"Not a number: {choice}")
+        # traps all other errors
     except TypeError:
         print(f"Not callable {action}")
     # end validation try
