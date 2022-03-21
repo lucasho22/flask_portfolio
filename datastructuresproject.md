@@ -2,21 +2,37 @@
 
 # Data Structures
 
-## Menu Challenge Code
+## Week 0
+
+### Menu Challenge Code
 ![image](https://user-images.githubusercontent.com/77864093/158083190-d192270d-fe05-4420-88c2-058bc518e944.png)
 
-## Swap Code
+### Swap Code
 ![image](https://user-images.githubusercontent.com/77864093/158109129-05dccdf8-d80c-4d1a-a2b4-06b83953150b.png)
 
-## Keypad Code
+### Keypad Code
 ![image](https://user-images.githubusercontent.com/77864093/158101274-571247ee-4399-49e5-b320-7f8fedd72f9c.png)
 
-## Tree Code
+### Tree Code
 ![image](https://user-images.githubusercontent.com/77864093/158115651-155910f6-d924-4c5a-b68f-928926ae8332.png)
 
-
-### Github Links
+#### Github Links
 [GitHub Commits](https://github.com/lucasho22/flask_portfolio/issues/2)
 
-### Replit Links
+#### Replit Links
 [Replit](https://replit.com/@lucasho22/flaskportfolio-2#swap.py)
+
+
+## Week 1
+
+### Lists with loops
+![image](https://user-images.githubusercontent.com/77864093/159205745-42b87462-e6eb-4cbf-af11-549336d13d82.png)
+
+### Fibonacci with try/except
+![image](https://user-images.githubusercontent.com/77864093/159205789-076389f5-8635-4c3a-9328-315d53b41750.png)
+
+#### Github Links
+[GitHub Commits and Links](https://github.com/lucasho22/flask_portfolio/issues/5)
+
+#### Replit Links
+[Replit](https://replit.com/@lucasho22/flaskportfolio-2#main.py)
