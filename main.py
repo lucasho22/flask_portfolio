@@ -1,10 +1,10 @@
-import woot
-import skater
-import swap
-import tree
-import keypad
-import listprin
-import fibonacci
+from week0 import woot
+from week0 import skater
+from week0 import swap
+from week0 import tree
+from week0 import matrix
+from week1 import listprin
+from week1 import fibonacci
 
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -17,15 +17,15 @@ import fibonacci
 # 2. function references will be executed directly file.function()
 main_menu = []
 
-patterns_sub_menu1 = [
+week0_submenu = [
     ["Swap", swap.test_swap],
     ["Tree", tree.treefunc],
-    ["Keypad", keypad.format_tester],
+    ["Matrix", matrix.format_tester],
     ["Woot", woot.boathouse],
     ["Skater", skater.skating],
 ]
 
-patterns_sub_menu2 = [
+week1_submenu = [
     ["List", listprin.tester],
     ["Fiboancci", fibonacci.fibonacci_results],
 ]
@@ -42,8 +42,8 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Week 0", patterns_submenu1])
-    menu_list.append(["Week 1", patterns_submenu2])
+    menu_list.append(["Week 0", week0_submenu])
+    menu_list.append(["Week 1", week1_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -54,10 +54,10 @@ def submenu():
     buildMenu(title, sub_menu)
 def patterns_submenu1():
     title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu1)
+    buildMenu(title, week0_submenu)
 def patterns_submenu2():
     title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu2)
+    buildMenu(title, week1_submenu)
 
 def buildMenu(banner, options):
     # header for menu
