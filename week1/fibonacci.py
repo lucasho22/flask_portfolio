@@ -1,3 +1,6 @@
+class Fibonacci:
+    def __init__(self):
+        self.fiboSeq = [0, 1]
 def fibonacci(n):
   if n == 0:
     return 0
@@ -19,3 +22,4 @@ def fibonacci_results():
         print(fibonacci(n), end=", ")
   except ValueError:
     print("ERROR: Invalid input for Fibonacci sequence.")
+

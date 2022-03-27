@@ -1,15 +1,15 @@
-from week0 import woot
-from week0 import skater
+# menuy.py - function style menu
+# Imports typically listed at top
+# each import enables us to use logic that has been abstracted to other files and folders
+from week0.animations import woot
+from week0.animations import skater
 from week0 import swap
 from week0 import tree
 from week0 import matrix
 from week1 import listprin
 from week1 import fibonacci
-
-# menuy.py - function style menu
-# Imports typically listed at top
-# each import enables us to use logic that has been abstracted to other files and folders
-
+from week2 import factorial
+from week2 import mathfunction
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -17,17 +17,22 @@ from week1 import fibonacci
 # 2. function references will be executed directly file.function()
 main_menu = []
 
-week0_submenu = [
-    ["Swap", swap.test_swap],
-    ["Tree", tree.treefunc],
-    ["Matrix", matrix.format_tester],
-    ["Woot", woot.boathouse],
-    ["Skater", skater.skating],
+week0_sub_menu = [
+  ["Swap", swap.test_swap],
+  ["Tree", tree.treefunc],
+  ["Matrix", matrix.format_tester],
+  ["Woot", woot.boathouse],
+  ["Skater", skater.skating],
 ]
 
-week1_submenu = [
-    ["List", listprin.tester],
-    ["Fiboancci", fibonacci.fibonacci_results],
+week1_sub_menu = [
+  ["List", listprin.tester],
+  ["Fiboancci", fibonacci.fibonacci_results],
+]
+
+week2_sub_menu = [
+  ["Factorial", factorial.testee],
+  ["Prime Math", mathfunction.test_prime],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -44,20 +49,21 @@ def menu():
     menu_list = main_menu.copy()
     menu_list.append(["Week 0", week0_submenu])
     menu_list.append(["Week 1", week1_submenu])
+    menu_list.append(["Week 2", week2_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
+def week0_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
-def patterns_submenu1():
+    buildMenu(title, week0_sub_menu)
+def week1_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week0_submenu)
-def patterns_submenu2():
-    title = "Function Submenu" + banner
-    buildMenu(title, week1_submenu)
+    buildMenu(title, week1_sub_menu)
+def week2_submenu():
+  title = "Function Submenu" + banner
+  buildMenu(title, week2_sub_menu)
 
 def buildMenu(banner, options):
     # header for menu
@@ -83,8 +89,6 @@ def buildMenu(banner, options):
         if choice == 0:
             # stop
             return
-        if choice == 1:
-            print("hooooo")
         try:
             # try as function
             action = prompts.get(choice)[1]
