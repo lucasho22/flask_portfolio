@@ -88,6 +88,25 @@ High level of surveillance on the internet to protect the government
 * Crowdsourcing is the practice of obtaining input or information from a large number of people via the Internet.
 * Crowdsourcing offers new models for collaboration, such as connecting businesses or social causes with funding.
 
+### 5.5 Legal and Ethical Concerns
+Intellectual Property: (IP)
+* A work or invention that is the result of creativity to which one has rights.
+* Because of digital devices, the sharing and ownership of IP’s has raised concerns about whether someone can access someone else’s creations.
+* Copyright protects an IP; when you create anything, you automatically own an all rights reserved copyright to whatever was created.
+* Copyright protects IP and keeps anyone from using it unless given expressed permission.
+* When someone takes material created by someone else and presents it as their own, it’s considered plagiarism and might have legal consequences.
+* Creative Commons provides free licenses to tell people how to use one’s creations.
+
+### 5.6 Safe Computing
+* Personally Identifiable Information (PII): Information specific to an individual.
+* Examples include: 
+* Social Security Number, Age , Race, Phone Number, Date of Birth, Email Addres, Mailing Address, Medical Information, Credit Card information.
+* Personally Identifiable Information (PII): Can be used by people to steal identity.
+* Although PII can be used to enhance a user’s online experience, it can also be exploited without protections and privacy.
+* Information placed online is hard to delete.
+
+
+
 ### 5.1 Actions
 1. 
 * Communication is easier. ALl you need to do is type something and send it, instead of having to travel somewhere to send a message. However, it is harmful because peole become very reliaible on computers and technology, and are less likely to talk in real life.
@@ -107,3 +126,10 @@ High level of surveillance on the internet to protect the government
 ### 5.4 Actions
 * There are 150 computer science students. I could make a survey about how they feel about the class, which every student could take, and then get the results. By doing this, it is crowdsourcing because I can then use the results to then make a page that updates when information is added. Other people can then look at the page to see what people think and how people rate the class. I could also use a vegetable versus non vegetable diet. This could see how many people eat vegetables or not, and it can update yearly based on what people put. 
 * Del Norte crowdsourcing could be good, since I can get reliable feedback from kids in the school. I could use their information on relevant stuff in school, or anything that could help in a final project.
+
+### 5.5 Actions
+*  Creative Commons - Good for a project where you do not mind anyone using it any way they want.
+* Open Source MIT - Good for a project where you can use code freely and distribute closed versions. It also happens to be simpler and easier to digest than many common licenses
+* Open Source GPL - Good for project where people can use your code but they cannot distribute closed versions.
+
+* Our group chose an MIT license because we thought it would be the easiest to do. Also, there is not much reason for anybody to distribute the poway CTE website and its code. Additionally, the only conditions to it are that we must disclose the license and copyright information when we distribute the website.
