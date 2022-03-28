@@ -146,6 +146,27 @@ def testee():
   print("The factorial of four is", facto_of(4))
   print("The factorial of six is", facto_of(6))
   ```
+### Math Function: Prime Numbers
+```python
+from math import sqrt
+
+class Prime:
+  def isPrime(self, n):
+    if (n <= 1):
+      return "No"
+      
+    for i in range(2, int(sqrt(n))+1):
+      if (n % i == 0):
+        return "No"
+        
+    return "Yes"
+
+def test_prime():
+  prime = Prime()
+  print("Is 13 prime?", prime.isPrime(13))
+  print("Is 8 prime?", prime.isPrime(8))
+  print("Is 65 prime?", prime.isPrime(65))
+  ```
   
 #### Github Links
 [Github Commits and Links](https://github.com/lucasho22/flask_portfolio/issues/7)
