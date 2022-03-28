@@ -133,3 +133,11 @@ Intellectual Property: (IP)
 * Open Source GPL - Good for project where people can use your code but they cannot distribute closed versions.
 
 * Our group chose an MIT license because we thought it would be the easiest to do. Also, there is not much reason for anybody to distribute the poway CTE website and its code. Additionally, the only conditions to it are that we must disclose the license and copyright information when we distribute the website.
+
+### 5.6 Actions
+* I have seen PII in previous computer science projects, such as my own project. For example, my about me page has a picture of myself with a description of who I am. Also, the GitHub ReadMe has information abou owners.
+* I feel like PII is a good thing and a bad thing. It is good since it can have your information out there, allowing people to reach out to you, such as friends, colleges, or teams. This could help you. However, some might use PII as a bad thing and can find out a lot about you, and that could hurt your privacy. 
+* Good passwords are those that are long and have a lot of different characters. This can make it harder to hack or guess. Bad passwords are those that are short and are very common, such as "password." Something used to help in authentication is multifactor authentication, like a list of questions that only you know the answers to.
+* Symmetric encryption uses one key that all of the specified users have that can be used to decrypt a message. Asymmetric encryption involves encryption using a public key and decryption using a unique private key, which are connected mathematically.
+* In deployment, we used HTTPS to encrypt our website. This uses a TLS protocol to send HTTP data/files to the user that is encrypted data.
+* One phishing scheme I learned the hard way was when I saw an ad for getting more robux for a game called Roblox. I got so happy, that I started nutting everywhere. I put in all my information, and waited for my account to have a bunch of robux in it, but it never worked. It was at that moment that I realized it wasn't real and that I wouldn't be getting any robux. NO ROBUX?
