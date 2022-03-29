@@ -2,6 +2,7 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 import os
+from crossover import palindrome, primeFactor, tree2
 from week0.animations import woot
 from week0.animations import skater
 from week0 import swap
@@ -24,6 +25,8 @@ math_sub_menu = [
   ["Factorial", factorial.testee],
   ["Prime Math", mathfunction.test_prime],
   ["Fiboancci", fibonacci.fibonacci_results]
+  ["Palindrome", palindrome.tester]
+  ["Prime Factors", primeFactor.tester]
 ]
 
 data_sub_menu = [
@@ -32,7 +35,7 @@ data_sub_menu = [
 ]
 
 adventure_sub_menu = [
-  ["Tree", tree.treefunc],
+  ["Tree", tree2.tester2],
   ["Tree2", tree.tester2],
   ["Woot", woot.boathouse],
   ["Skater", skater.skating]
