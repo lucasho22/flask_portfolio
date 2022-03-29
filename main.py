@@ -3,15 +3,10 @@
 # each import enables us to use logic that has been abstracted to other files and folders
 import os
 from crossover import palindrome, primeFactor, tree2
-from week0.animations import woot
-from week0.animations import skater
-from week0 import swap
-from week0 import tree
-from week0 import matrix
-from week1 import listprin
-from week1 import fibonacci
-from week2 import factorial
-from week2 import mathfunction
+from week0.animations import woot, skater
+from week0 import swap, tree, matrix
+from week1 import listprin, fibonacci
+from week2 import factorial, mathfunction
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
