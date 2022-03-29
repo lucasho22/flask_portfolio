@@ -1,12 +1,11 @@
 class Factorial:
-  def __init__(self):
-    self.facSeq = [0, 1]
-  
   def __call__(self,n):
     if n == 1 or n == 0:
       return 1
+      # Factorial of 0 and 1 is 1
     else:
       return n * self(n-1) 
+      # Goes through factorial code for any n values greater than 1.
 
 def testee():
   facto_of = Factorial() 

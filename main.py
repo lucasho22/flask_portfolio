@@ -17,23 +17,26 @@ from week2 import mathfunction
 # 2. function references will be executed directly file.function()
 main_menu = []
 
-week0_sub_menu = [
-  ["Swap", swap.test_swap],
-  ["Tree", tree.treefunc],
+math_sub_menu = [
+  ["Swap", swap.test_swap],  
   ["Matrix", matrix.format_tester],
-  ["Woot", woot.boathouse],
-  ["Skater", skater.skating],
-]
-
-week1_sub_menu = [
-  ["List", listprin.tester],
-  ["Fiboancci", fibonacci.fibonacci_results],
-]
-
-week2_sub_menu = [
   ["Factorial", factorial.testee],
   ["Prime Math", mathfunction.test_prime],
+  ["Fiboancci", fibonacci.fibonacci_results]
 ]
+
+data_sub_menu = [
+  ["List", listprin.tester]
+
+]
+
+adventure_sub_menu = [
+  ["Tree", tree.treefunc],
+  ["Woot", woot.boathouse],
+  ["Skater", skater.skating]
+]
+
+
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -47,23 +50,23 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Week 0", week0_submenu])
-    menu_list.append(["Week 1", week1_submenu])
-    menu_list.append(["Week 2", week2_submenu])
+    menu_list.append(["Math", math_submenu])
+    menu_list.append(["Data", data_submenu])
+    menu_list.append(["Adventure", adventure_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def week0_submenu():
+def math_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week0_sub_menu)
-def week1_submenu():
+    buildMenu(title, math_sub_menu)
+def data_submenu():
     title = "Function Submenu" + banner
-    buildMenu(title, week1_sub_menu)
-def week2_submenu():
+    buildMenu(title, data_sub_menu)
+def adventure_submenu():
   title = "Function Submenu" + banner
-  buildMenu(title, week2_sub_menu)
+  buildMenu(title, adventure_sub_menu)
 
 def buildMenu(banner, options):
     # header for menu
