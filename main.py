@@ -33,6 +33,7 @@ data_sub_menu = [
 
 adventure_sub_menu = [
   ["Tree", tree.treefunc],
+  ["Tree2", tree.tester2],
   ["Woot", woot.boathouse],
   ["Skater", skater.skating]
 ]
