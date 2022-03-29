@@ -1,6 +1,7 @@
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
+import os
 from week0.animations import woot
 from week0.animations import skater
 from week0 import swap
@@ -94,6 +95,7 @@ def buildMenu(banner, options):
             return
         try:
             # try as function
+            os.system('clear')
             action = prompts.get(choice)[1]
             action()
         except TypeError:
