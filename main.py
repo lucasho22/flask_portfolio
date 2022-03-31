@@ -19,8 +19,8 @@ math_sub_menu = [
   ["Matrix", matrix.format_tester],
   ["Factorial", factorial.testee],
   ["Prime Math", mathfunction.test_prime],
-  ["Fiboancci", fibonacci.fibonacci_results]
-  ["Palindrome", palindrome.tester]
+  ["Fiboancci", fibonacci.fibonacci_results],
+  ["Palindrome", palindrome.tester],
   ["Prime Factors", primeFactor.tester]
 ]
 
@@ -30,8 +30,8 @@ data_sub_menu = [
 ]
 
 adventure_sub_menu = [
-  ["Tree", tree2.tester2],
-  ["Tree2", tree.tester2],
+  ["Tree1", tree.treefunc],
+  ["Tree2", tree2.tester2],
   ["Woot", woot.boathouse],
   ["Skater", skater.skating]
 ]
