@@ -26,18 +26,22 @@ def print_data(n):
 def for_loop():
   for n in range(len(InfoDb)):
     print_data(n)
+    # for loop iterates on length of InfoDb
 
 def while_loop(n):
     while n < len(InfoDb):
         print_data(n)
         n += 1
     return
+    # while loop contains an initial n and an index incrementing statement (n += 1)
 
 def recursive_loop(n):
   if n < len(InfoDb):
+    #n must be less than the length of infodb
       print_data(n)
       recursive_loop(n + 1)
   return
+  # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
 
 def tester():
   print("For loop")
@@ -46,3 +50,4 @@ def tester():
   while_loop(0)  
   print("Recursive loop")
   recursive_loop(0)
+  # tester is what is able to make the code run. It prints the loops.
