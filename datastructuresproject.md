@@ -9,5 +9,6 @@
 - [Week 0](https://lucasho22.github.io/flask_portfolio/tpts/docweek0)
 - [Week 1](https://lucasho22.github.io/flask_portfolio/tpts/docweek1)
 - [Week 2](https://lucasho22.github.io/flask_portfolio/tpts/docweek2)
+- [Week 4](https://lucasho22.github.io/flask_portfolio/tpts/docweek4)
 
 
