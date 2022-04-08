@@ -36,10 +36,10 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
             background: #5373e0;
         }
     </style>
-
+<!--Instruction for how to use the create task-->
     <center style="font-size: x-large">Type in one of the four shirts you want to think about for the game. When you submit, it will give you the information you will need to know for the game. Choose from the nike shirt, the turtleneck, the flannel shirt, and the long sleeve shirt.</center>
 
-    <table>
+    <table> <!--Pictures of the shirts, linked to static-->
         <tr>
             <td>Flannel Shirt <img id="image" src="/static/pictures/flannel.png" height = "270" width = "270"> </td>
             <td>Turtleneck Shirt <img id="image" src="/static/pictures/turtleneck.png" height ="270" width = "270"></td>
@@ -48,7 +48,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
         </tr>
     </table>
 
-    <div class="text-white pt-3">
+    <div class="text-white pt-3"> <!--This stores data in a table list, so when you input the name, the data for the input will appear-->
         <table id="tableShirts" class="table" style="visibility: collapse">
             <thead>
             <tr id="shirtHeader" style="visibility: collapse">
@@ -87,7 +87,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
         </table>
     </div>
 
-    <div class="align-center pt-5" style="padding-left: 10px">
+    <div class="align-center pt-5" style="padding-left: 10px"> <!--Input search-->
         <input type="text" id="terms" placeholder="Search for a shirt" size="50">
     </div>
     <div class="align-center" style="padding-left: 10px">
@@ -98,7 +98,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
         <div class="container text-white" id="output"> </div>
     </div>
 
-    <script>
+    <script> <!--Function for the code. Certain rows are displayed based on the input. document.getElementById to make those ids from the table collapse or become visible-->
         function input() {
             if (document.getElementById('terms').value.toLowerCase() == 'flannel' ||
                 document.getElementById('terms').value.toLowerCase() == 'flannel shirt') {
@@ -145,6 +145,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
 
     <form action="javascript:void(0);">
 
+        <!-- Makes the questions with yes or no answers, with ids to connect to the script-->
         <body>
         <div id="longSleeveQuestion" style="padding-left: 10px">
             <legend>Question 1</legend>
@@ -171,6 +172,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
         </div>
         </body>
 
+        <!-- Script goes through for each function, and gets the ids to hide it and get the next question -->
         <script>
             function yesClickLongSleeve() {
                 document.getElementById("longSleeveQuestion").style.display = "none";
