@@ -30,3 +30,6 @@ My create task idea is to make a search that requires an input. Based on your in
 
 ## Week 2 Review Ticket
 [Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/9)
+
+## Week 4 Review Ticket
+[Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/13)
