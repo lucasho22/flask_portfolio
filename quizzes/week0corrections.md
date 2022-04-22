@@ -1,4 +1,4 @@
-{% includes navigation %}
+{% include navigation %}
 
 # Quiz 1 
 
