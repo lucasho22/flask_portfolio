@@ -30,7 +30,7 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
 ## Code
 ```python
 
-{% block body %}
+## {% block body %}
     <style>
         body {
             background: #5373e0;
