@@ -28,9 +28,9 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
  The result for the second call is for new questions and buttons to appear. If a user clicks the yes button, it will take them to the next question until the game guesses the shirt. 
 
 ## Code
-```python
+python
 
-## {% block body %}
+
     <style>
         body {
             background: #5373e0;
