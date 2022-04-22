@@ -30,6 +30,8 @@ My create task idea is to make a fun guessing game on shirts. The game has instu
 ## Code
 python
 
+``` 
+{% block body %}
 
     <style>
         body {
@@ -204,4 +206,5 @@ python
 
     </form>
 
+{% endblock %}
 ```
