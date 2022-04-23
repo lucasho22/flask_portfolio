@@ -54,5 +54,8 @@ it is not multifactor authentication. It does not have multiple parts to the log
 * Routing is not specified, it can be dynamic. Protocols are agreed-upon sets of rules that specify the behavior of a system. Protocols used on the Internet enable devices from different manufacturers to communicate in a standard way.
 
 ![image](https://user-images.githubusercontent.com/77864093/164794125-2211a20c-5b25-4ba3-b3f6-b55b072beedb.png)
-* Storin information can make the user's information not private. This means the information can be negatively affected. However, pages will still be accessible
+* Storing information can make the user's information not private. This means the information can be negatively affected. However, pages will still be accessible
 if it hasn't been used in a while. ISP only affects how requently pages will be opened. 
+
+![image](https://user-images.githubusercontent.com/77864093/164943426-b865cb83-08ac-425c-8870-0492c4f67796.png)
+* Copying pixels loses the RGB values of the pixels. If you reverse the colors, you can reverse it again to get the orginal, so it is lossless compression.
