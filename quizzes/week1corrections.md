@@ -34,3 +34,14 @@ a negative number.
 ![image](https://user-images.githubusercontent.com/77864093/164947098-9eb30b23-3cc6-43cd-875e-1366b7bdc894.png)
 * It is possiblie to enter multiple cities. and for information about multiple cities to be displayed at once. Abbreviations might make it harder, and some might have 
 their own abbreviations, so it could be challenging for the web site.
+
+![image](https://user-images.githubusercontent.com/77864093/164959047-6864f18f-43c9-40fb-9f3b-16ef1bdacd41.png)
+* I did not see the part where it said that the research group was small, so it makes sense that it would be faster for the members of the citizen science group. 
+Also, there are usually a lot of people in the citizen science.
+
+![image](https://user-images.githubusercontent.com/77864093/164959366-1728c8f0-48c6-4627-9d52-0ff327f2b6b4.png)
+*  Cloud storage sites allow users to share files easily, which could lead to increased concerns about copyrighted materials being illegally distributed online, so
+it can't be d. It can be b because cloud computing allows for files to be shared, which means that there is enhanced collaboration.
+
+![image](https://user-images.githubusercontent.com/77864093/164959575-cdb70a54-66ef-4a5c-bf3e-091a444f2a53.png)
+* Collaboration can actually decrease tasks required and make it eeasier. This allows for complexity and size to decrease. 
