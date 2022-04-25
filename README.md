@@ -36,3 +36,4 @@ My create task idea is to make a search that requires an input. Based on your in
 
 ## Proctore MCQ-Study Plan and Review Ticket
 [Study Plan](https://github.com/lucasho22/flask_portfolio/issues/14)
+[Review Ticket](https://github.com/lucasho22/flask_portfolio/issues/15)
