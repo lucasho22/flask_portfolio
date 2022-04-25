@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 - [x] Monday: Prepare for AP test. Go over old TPT notes and look at collegeboard videos. If you need help, ask friends or teacher. Go over Big Idea 1.
 
 - [x] Tuesday: Take the quiz. Start corrections if you can. Prepare for AP test by still studying. Go over Big Idea 2.
