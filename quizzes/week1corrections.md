@@ -3,6 +3,7 @@
 # Quiz 2
 
 ## Score
+![image](https://user-images.githubusercontent.com/77864093/165027235-f5bf7606-e6f4-4712-a7b4-8f5fb1b60b47.png)
 
 # Corrections
 
@@ -45,3 +46,7 @@ it can't be d. It can be b because cloud computing allows for files to be shared
 
 ![image](https://user-images.githubusercontent.com/77864093/164959575-cdb70a54-66ef-4a5c-bf3e-091a444f2a53.png)
 * Collaboration can actually decrease tasks required and make it eeasier. This allows for complexity and size to decrease. 
+
+![image](https://user-images.githubusercontent.com/77864093/165027366-e95b1da3-c50e-442f-ac2a-3723393c631f.png)
+* If an online encyclopedia can be edited by anyone, then it will be harder to tell if it is copyrighted, as more different ideas are put in and making it harder
+to track. However, an online encyclopedia is more advantageous in which more people can contribute their own perspectives.
