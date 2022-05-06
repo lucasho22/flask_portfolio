@@ -6,4 +6,4 @@
 
 # Week 7
 - [Study Plan](https://lucasho22.github.io/flask_portfolio/proctoredmcq/studyplan3)
-- [Quiz 3 Corrections](https://lucasho22.github.io/flask_portfolio/proctoredmcq/quiz5corrections)
+- [Quiz 5 Corrections](https://lucasho22.github.io/flask_portfolio/proctoredmcq/quiz5corrections)
